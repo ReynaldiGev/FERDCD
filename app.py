@@ -332,7 +332,7 @@ main_image = Image.open('D:/coba2/FERDCD/img/dl.png')
 bot_image = Image.open('D:/coba2/FERDCD/img/aa.png')
 def main():
     st.image(main_image,use_column_width='auto')
-    st.title("Face Emotion Detection Application")
+    st.title("Facial Emotion Recognition Apps")
     with st.sidebar:
         st_lottie(lottie_welcome, key="welcome")
     #st.sidebar.image(top_image, use_column_width='auto')
@@ -409,7 +409,7 @@ def main():
                  In this project, a facial expression data will be used which is divided into 5 types of expressions.
                  """)
         with st.expander("See Data Visualization"):
-            eda = Image.open("D:/tes/FER/img/bardata.jpg")
+            eda = Image.open("D:/coba2/FERDCD/img/bardata.jpg")
             st.image(eda, width=300)
 
         st.markdown("""---""")
